@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background-color: #2e3141;
+		background-color: white;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
@@ -2657,7 +2657,7 @@
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: #353849;
+			background-color: #353849; /* THIS IS DESCRIPTION BOX FOR PROJECTS */
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -3119,7 +3119,7 @@
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
+				background-color: white;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 				background-size: auto, cover;
 				background-position: center, center;
@@ -3229,7 +3229,7 @@
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background-color: #2e3141;
+			background-color: white;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
@@ -3272,13 +3272,13 @@
 	}
 
 	.wrapper {
-		background-color: #2e3141;
+		background-color: white;
 		margin: 6.5em 0;
 		position: relative;
 	}
-
+   /* -------------------------THIS IS THE SCALENE TRIANGLE BEFORE AND AFTER BIOS-------------------------*/
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
+			background-color: rgba(0,0,115,0.3);
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -3326,11 +3326,13 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #353849;
+			background-color: #353849; /* THIS IS DESCRIPTION BOX FOR PROJECTS */
 		}
 
+
+				/* THIS IS THE SINGLE SCALENE TRIANGLE AFTER JESSICAS BIO----------------------------------------------------------------------------------------------------------------------*/
 			.wrapper.style2:before, .wrapper.style2:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23353849%3B' /%3E%3C/svg%3E");
+				background-color: rgb(0,30,100);
 			}
 
 		.wrapper.style3 {
@@ -3621,7 +3623,7 @@
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
+			background-color: white;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto, cover;
 			background-position: center, center;
