@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background-color: white;
+		/*background-color: #9dc224;*/
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
@@ -3119,7 +3119,7 @@
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: white;
+				background-color: #9dc224;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 				background-size: auto, cover;
 				background-position: center, center;
@@ -3229,7 +3229,7 @@
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background-color: white;
+			background-color: #9dc224;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
@@ -3272,13 +3272,13 @@
 	}
 
 	.wrapper {
-		background-color: white;
+		background-color: #9dc224;
 		margin: 6.5em 0;
 		position: relative;
 	}
    /* -------------------------THIS IS THE SCALENE TRIANGLE BEFORE AND AFTER BIOS-------------------------*/
 		.wrapper:before, .wrapper:after {
-			background-color: rgba(0,0,115,0.3);
+			background-color: #9dc224;
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -3340,7 +3340,8 @@
 		}
 
 			.wrapper.style3:before, .wrapper.style3:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233d4051%3B' /%3E%3C/svg%3E");
+				background-color: rgba(0,0,29,0.5);
+				/*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233d4051%3B' /%3E%3C/svg%3E");*/
 			}
 
 		.wrapper.style4 {
@@ -3352,6 +3353,7 @@
 			}
 
 		.wrapper.style5 {
+
 			background-color: #4d5060;
 		}
 
@@ -3367,11 +3369,15 @@
 				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23555867%3B' /%3E%3C/svg%3E");
 			}
 
-		.wrapper.spotlight {
-			background-color: #4c5c96;
-		}
 
+			/* ----------------LARGE RECTANGLE AROUND JESSICAS BIO only when set as a background color--when set as image it changes all bios---------------------------------------------------------------------------------------------------------*/
+		.wrapper.spotlight {
+			/*background-image: url("../../images/lily.jpg");*/
+			background-color: rgb(0,0,115);
+		}
+		/*-------------------WHEN CHANGE  IT BECOMES RECTANGLE ABOVE JESSICA'S BIO- IS SCALENE TRIANGLE WITH ORIGINAL BACKGROUND IMAGE--------------------------------------------------------------------------------------------------------------------------*/
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
+				/*background-color: rgb	(0,0,115);*/
 				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
 			}
 
@@ -3420,12 +3426,17 @@
 				margin: 0 0 2em 3em;
 			}
 
+
+    /* tHIS IS THE RECTANGLE AROUND CARLOS!!!!!!!--------------------------------------------------------------------------------------------------------------------------------*/
 			.wrapper.spotlight.style2 {
 				background-color: #45558d;
 			}
 
+
+			/* SCALENE TRIANGLE DIRECTLY BELOW RECTANGLE OF JESSICAS BIO-----------------------------------------------------------------------------------------------------------------*/
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E");
+					background-color:#9dc224;
+					/*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E");*/
 				}
 
 			.wrapper.spotlight.style3 {
@@ -3623,7 +3634,7 @@
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: white;
+			background-color: #000000;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto, cover;
 			background-position: center, center;
